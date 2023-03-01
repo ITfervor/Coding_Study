@@ -1,12 +1,12 @@
 ch = input()
 ch = str(ch)
 if ch == 'A':
-    print("best!")
+    print("best!!!")
 elif ch == 'B':
-    print("good!")
+    print("good!!")
 elif ch =='C':
     print("run!")
 elif ch == 'D':
-    print("slowly")
+    print("slowly~")
 else:
     print("what?")

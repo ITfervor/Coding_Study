@@ -7,7 +7,6 @@ nums = []
 nums.append(a)
 nums.append(b)
 nums.append(c)
-print(nums)
 
 for i in nums:
     if i % 2 == 0:

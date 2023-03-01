@@ -6,4 +6,4 @@ e = a+b+c
 d = e/3
 
 print(e, end = " ")
-print( "{:.2f}".format(d)  , end = " ")
+print( "{:.2f}".format(d))

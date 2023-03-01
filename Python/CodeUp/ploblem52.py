@@ -1,7 +1,7 @@
 
 # a, b = input().split()
 
-# print(bool(int(a)) and bool(int(b))) 
+# print(bool(int(a)) or bool(int(b))) 
 
 
 a, b = input().split()
