@@ -1,4 +1,5 @@
-n = 123
-n = str(n)
+# 각 자리나눈다음 합 구하기 
+number = input()
+answer = sum(map(int, str(number)))
 
-print(len(n))
+print(answer)
