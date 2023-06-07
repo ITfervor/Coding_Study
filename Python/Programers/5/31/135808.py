@@ -1,7 +1,12 @@
 def solution(k, m, score):
     answer = 0
-    return answer
+    score = sorted(score)
 
+    for i in range(len(score), m-1, -m):
+        answer += score[i-m]*m # 정렬되어있으니까 마지막 값을 출력하면 해당 박스의 값이 됨
+
+    return answer
+print(solution(4,3,[4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2]))
 
 # 최대 이익을 산출하는 사과 박스
 # 1-k의 등급을 정해진 사과
